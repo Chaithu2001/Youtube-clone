@@ -1,0 +1,27 @@
+.sideBar{
+    height: calc(100%-56px);
+    width: 72px;
+    background-color: white;
+    border: 1px solid #dbdbdb;
+    position: fixed;
+    bottom: 0;
+    top: 56px;
+    left: 0;
+}
+.sideBarButton{
+    height: 74px;
+    width: 70px;
+    margin:0;
+    background-color: white;
+    border: none;
+}
+.sideBarButton:hover{
+    background-color: #f0f0f0;
+}
+.sideBarButton >p{
+    font-size: 10px;
+}
+.libraryIcon{
+    height: 24px;
+    width: 24px;
+}
